@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wfa3
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0075-tenant/ci10t-786-0075-app/devfile-sample-wfa3@sha256:5fac92814e49cd8da97123c9a7a0140518d9459b558605996d3b10eea71cf313
         name: my-nodejs
         ports:
         - containerPort: 3001
